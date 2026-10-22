@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Packet Tracer Lab - Enterprise Office Network</title>
+</head>
+<body>
+  <h1>Enterprise Office Network Simulation</h1>
+
+  <h2>Topology</h2>
+  <p>Ek router, ek layer-3 switch, aur do VLANs wala office network.</p>
+  <img src="enterprise.pkt.png" alt="Network topology" width="700">
+
+  <h2>Device List</h2>
+  <ul>
+    <li>Router: R1</li>
+    <li>Switch: SW1</li>
+    <li>PC: PC1, PC2</li>
+  </ul>
+
+  <h2>IP Addressing Table</h2>
+  <table border="1">
+    <tr><th>Device</th><th>Interface</th><th>IP Address</th><th>Subnet Mask</th></tr>
+    <tr><td>R1</td><td>G0/0</td><td>192.168.10.1</td><td>255.255.255.0</td></tr>
+    <tr><td>PC1</td><td>NIC</td><td>192.168.10.10</td><td>255.255.255.0</td></tr>
+  </table>
+
+  <h2>Ping Test</h2>
+  <p>PC1 se PC2 ko ping kiya, result: Reply received.</p>
+
+  <h2>Download</h2>
+  <a href="enterprise network.pkt">Download Packet Tracer file</a>
+</body>
+</html>
